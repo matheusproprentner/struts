@@ -3,7 +3,7 @@
 
 <h:form action="/hello">
 	<h:text property="name">Login</h:text>
-	<h:text property="password">Senha</h:text>
+	<h:password property="password">Senha</h:password>
 	<h:submit></h:submit>
 	<hr>
 	<h:errors/>
